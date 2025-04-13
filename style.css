@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Jost", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:       #14161a;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+menu, li:hover {
+    color: #c5c5c5;
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.games ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.games ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.applications ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.applications ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rewiews-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rewiews-item {
+    background-color: #282933;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.rewiew-item-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewiew-item-header-info {
+    display: flex;
+    align-items: center;
+}
+
+.rewiew-item-header-info img {
+    border-radius: 50%;
+}
+
+.rewiews-item-text {
+    margin-top: 10px;
+}
+
+.rewiews-item-product {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.paylist {
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.footer-button {
+    background-color: #1849CC;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.footer-button:hover {
+    opacity: inherit;
+    background-color: #133aa7;
+}
+
+.footer-info1, .footer-info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    background-color: #d8d8d8;
+    padding: 40px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-form {
+    text-align: center;
+}
+
+#name {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #133aa7;
+    width: 300px;
+}
+
+#email {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #133aa7;
+    width: 300px;
+}
+
+#problem {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #133aa7;
+    width: 300px;
+}
+
+.footer-form {
+    margin-top: 250px;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
